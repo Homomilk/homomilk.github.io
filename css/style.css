@@ -18,19 +18,37 @@ nav {
   padding: 10px;
   color: #424549;
   font-size: 32px;
+  align-content: center;
 }
 
 nav ul {
-  list-style-type: "#";
-  list-style-image: url("../img/Pound.png");
-  padding-left: 8%;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav li {
-
   margin: 10px;
+  padding: 1px 3px 1px 3px;
   background-color: rgba(85,85,85,0.2);
+  border-radius: 8px;
+}
 
+nav li:hover {
+  background-color: rgba(85,85,85,0.5);
+}
+
+nav a {
+  color: #424549;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #555555;
+  text-decoration: none;
+}
+
+nav img {
+  vertical-align: center;
 }
 
 @font-face {
