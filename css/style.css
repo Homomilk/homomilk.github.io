@@ -1,6 +1,36 @@
 body {
-  color: dimgray;
+  background-color: #2f3136;
   font-family: Aileron;
+  margin: 0;
+}
+
+main {
+  float: right;
+  width: 83%;
+  color: white;
+  margin-top: 0;
+}
+
+nav {
+  background-color: #292b2f;
+  float: left;
+  width: 15%;
+  padding: 10px;
+  color: #424549;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style-type: "#";
+  list-style-image: url("../img/Pound.png");
+  padding-left: 8%;
+}
+
+nav li {
+
+  margin: 10px;
+  background-color: rgba(85,85,85,0.2);
+
 }
 
 @font-face {
