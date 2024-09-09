@@ -1,0 +1,210 @@
+
+
+body {
+    background-image: url("../img/background.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    background-size: cover;
+    margin: 0;
+    color: #3a2a24;
+    font-family: Comicoro;
+    font-size: 32px;
+}
+
+a:link {
+    color: #c81d0e;
+}
+
+a:visited {
+    color: #500400;
+}
+
+a:hover {
+    color: #500400;
+}
+
+#wrapper {
+    width: 85%;
+    padding-top: 50px;
+    padding-block: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+header {
+    border-bottom: 4px solid #9c8782;
+    background-color: #806e72;
+    width: 100%;
+    height: 30px;
+}
+
+header p {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.miniheader {
+    border: 4px solid #9c8782;
+    background-color: #806e72;
+    width: 100%;
+    height: 15px;
+    margin: auto;
+}
+
+.miniheader p {
+    margin: 0;
+    font-size: 16px;
+    padding: 0 5px 0 5px;
+    display: inline;
+    vertical-align: top;
+    line-height: normal;
+}
+
+.miniheader img {
+    float: right;
+    padding-top: 3px;
+    padding-right: 3px;
+}
+
+.collapsibleimg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 4px solid #9c8782;
+  border-top: 0;
+}
+
+#projectscontent a:link {
+    color: #3a2a24;
+    text-decoration: none;
+}
+
+#projectscontent a:visited {
+    color: #3a2a24;
+    text-decoration: none;
+}
+
+main {
+    border: 4px solid #9c8782;
+    background-color: #614e4b;
+    margin-left: 17%;
+}
+
+main h1 {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border: 4px solid #9c8782;
+    background-color: #806e72;
+}
+
+main h2 {
+  margin: 5px 0 5px 0;
+}
+
+main h3 {
+  margin: 5px 0 5px 0;
+}
+
+main h4 {
+  margin: 5px 0 5px 0;
+}
+
+main p {
+  margin: 0;
+  line-height: 20pt;
+}
+
+#leftdiv {
+  float: left;
+  width: 16%;
+  height: 100%;
+}
+
+nav {
+    border: 4px solid #9c8782;
+    background-color: #614e4b;;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    padding: 5px;
+    margin: 0;
+}
+
+nav li {
+    margin-bottom: 6px;
+    border: 4px solid #9c8782;
+    background-color: #806e72;
+    font-size: 20px;
+    padding: 0 5px 0 5px;
+}
+
+nav a:link {
+  color: #3a2a24;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #9c8782;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #3a2a24;
+  text-decoration: none;
+}
+
+.reviewdate {
+  font-size: 16px;
+}
+
+footer {
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#projectscontent img {
+    border: 4px solid #9c8782;
+    object-fit: cover;
+    width: 80%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.audioholder {
+  border: 4px solid #9c8782;
+  background-color: #614e4b;
+  margin-top: 10px;
+}
+
+.audioholder img {
+  padding: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.audiocontrolholder {
+  margin: auto;
+  display: flex;
+  width: 75%;
+}
+
+#audio {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@font-face { font-family: Comicoro; src: url("Comicoro.ttf") }
